@@ -239,11 +239,12 @@
       en: ['Logistics & Warehouse', 'Conveyor, drive and motion systems.'] }
   ];
 
-  /* Brands we represent (authorized solution partner) */
+  /* Brands we represent — [logo slug, display name] */
   const BRANDS = [
-    'THK', 'Sumitomo', 'Yaskawa', 'Kübler', 'HSD Mechatronics', 'Busch',
-    'Nadella', 'Neugart', 'Güdel', 'Tolomatic', 'R+W', 'Dobot',
-    'VIPA', 'Teltonika', 'Zimmer', 'Beka-Lube'
+    ['thk', 'THK'], ['yaskawa', 'Yaskawa'], ['kubler', 'Kübler'], ['hsd', 'HSD Mechatronics'],
+    ['neugart', 'Neugart'], ['nadella', 'Nadella'], ['gudel', 'Güdel'], ['tolomatic', 'Tolomatic'],
+    ['rw', 'R+W'], ['dobot', 'Dobot'], ['teltonika', 'Teltonika'], ['beka', 'Beka-Lube'],
+    ['alwayse', 'Alwayse'], ['gamma', 'Gamma System'], ['ktr', 'KTR'], ['nexcom', 'Nexcom']
   ];
 
   let currentLang = localStorage.getItem('rmk-lang') || 'tr';
@@ -278,8 +279,10 @@
   function renderBrands() {
     const grid = document.getElementById('brandGrid');
     if (!grid) return;
-    grid.innerHTML = BRANDS.map(function (name) {
-      return '<div class="brand-cell"><span>' + name + '</span></div>';
+    grid.innerHTML = BRANDS.map(function (b) {
+      return '<div class="brand-cell">' +
+             '<img src="assets/brands/' + b[0] + '.png" alt="' + b[1] + '" loading="lazy" />' +
+             '</div>';
     }).join('');
   }
 
