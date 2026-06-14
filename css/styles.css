@@ -480,7 +480,7 @@ a { color: inherit; text-decoration: none; }
   height: 100vh;
   overflow: hidden;
 }
-#reducerCanvas {
+#reducerCanvas, #robotCanvas {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -541,6 +541,42 @@ a { color: inherit; text-decoration: none; }
   font-variant-numeric: tabular-nums;
 }
 .spec-u { font-size: .62em; font-style: normal; font-weight: 500; color: var(--muted); }
+
+/* Attribution credit (robot section) */
+.model-credit {
+  margin: 0;
+  align-self: flex-end;
+  font-size: .76rem;
+  color: var(--muted);
+  pointer-events: auto;
+}
+.model-credit a { color: var(--text); border-bottom: 1px solid var(--line-2); }
+.model-credit a:hover { color: var(--red); border-color: var(--red); }
+
+/* Loading overlay */
+.robot-loading {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: .85rem;
+  letter-spacing: .06em;
+  transition: opacity .4s var(--ease);
+}
+.robot-loading.hidden { opacity: 0; pointer-events: none; }
+.spinner {
+  width: 22px; height: 22px;
+  border: 2px solid var(--line-2);
+  border-top-color: var(--red);
+  border-radius: 50%;
+  animation: spin .8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
 
 @media (max-width: 760px) {
   .model { height: 260vh; }
