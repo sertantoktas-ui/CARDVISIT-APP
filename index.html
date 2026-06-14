@@ -25,7 +25,8 @@
       <nav class="nav" id="nav" aria-label="Ana menü">
         <a href="#about" data-i18n="nav.about">Hakkımızda</a>
         <a href="#solutions" data-i18n="nav.solutions">Çözümler</a>
-        <a href="#model" data-i18n="nav.model">3B Model</a>
+        <a href="#model" data-i18n="nav.model">Redüktör</a>
+        <a href="#robot" data-i18n="nav.robot">Robot</a>
         <a href="#process" data-i18n="nav.process">Süreç</a>
         <a href="#sectors" data-i18n="nav.sectors">Sektörler</a>
         <a href="#team" data-i18n="nav.team">Ekip</a>
@@ -203,6 +204,30 @@
       </div>
     </section>
 
+    <!-- ============ 3D ROBOT MODEL ============ -->
+    <section class="model robot" id="robot" aria-label="3B robot modeli">
+      <div class="model-sticky">
+        <canvas id="robotCanvas"></canvas>
+        <div class="model-fallback" aria-hidden="true"></div>
+        <div class="robot-loading" id="robotLoading">
+          <span class="spinner" aria-hidden="true"></span>
+          <span data-i18n="robot.loading">Model yükleniyor…</span>
+        </div>
+        <div class="container model-inner">
+          <div class="model-head">
+            <p class="eyebrow" data-i18n="robot.eyebrow">// Robotik</p>
+            <h2 class="section-title" data-i18n="robot.title">Ağır hizmet robotu, her açıdan</h2>
+            <p class="section-intro" data-i18n="robot.intro">Sayfayı kaydırdıkça robot 360° döner; her detayını inceleyin.</p>
+          </div>
+          <p class="model-credit">
+            “KUMA Heavy Robot R-9000S” —
+            <a href="https://sketchfab.com/3d-models/kuma-heavy-robot-r-9000s-8b77bdbe705f4e9697790fd404da49a9" target="_blank" rel="noopener">Heinrich (@Gevalt)</a>,
+            CC BY-NC 4.0
+          </p>
+        </div>
+      </div>
+    </section>
+
     <!-- ============ PROCESS (infographic) ============ -->
     <section class="section process" id="process">
       <div class="container">
@@ -360,5 +385,6 @@
 
   <script src="js/main.js"></script>
   <script type="module" src="js/reducer3d.js"></script>
+  <script type="module" src="js/robot3d.js"></script>
 </body>
 </html>

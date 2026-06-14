@@ -10,7 +10,8 @@
       'meta.desc': 'RMK Mechatronics; endüstriyel otomasyon, robotik sistemler ve özel makine çözümleri sunan bir mekatronik mühendislik firmasıdır.',
       'nav.about': 'Hakkımızda',
       'nav.solutions': 'Çözümler',
-      'nav.model': '3B Model',
+      'nav.model': 'Redüktör',
+      'nav.robot': 'Robot',
       'nav.process': 'Süreç',
       'nav.sectors': 'Sektörler',
       'nav.team': 'Ekip',
@@ -24,6 +25,11 @@
       'model.s3k': 'Çıkış devri',
       'model.s4k': 'Çıkış torku',
       'model.rpm': 'dev/dk',
+
+      'robot.eyebrow': '// Robotik',
+      'robot.title': 'Ağır hizmet robotu, her açıdan',
+      'robot.intro': 'Sayfayı kaydırdıkça robot 360° döner; her detayını inceleyin.',
+      'robot.loading': 'Model yükleniyor…',
 
       'hero.eyebrow': '// Mekatronik mühendislik',
       'hero.title': 'Mühendislikle <span class="accent">hareket</span> veriyoruz',
@@ -113,7 +119,8 @@
       'meta.desc': 'RMK Mechatronics is a mechatronics engineering company delivering industrial automation, robotic systems and custom machinery solutions.',
       'nav.about': 'About',
       'nav.solutions': 'Solutions',
-      'nav.model': '3D Model',
+      'nav.model': 'Reducer',
+      'nav.robot': 'Robot',
       'nav.process': 'Process',
       'nav.sectors': 'Industries',
       'nav.team': 'Team',
@@ -127,6 +134,11 @@
       'model.s3k': 'Output speed',
       'model.s4k': 'Output torque',
       'model.rpm': 'rpm',
+
+      'robot.eyebrow': '// Robotics',
+      'robot.title': 'Heavy-duty robot, from every angle',
+      'robot.intro': 'Scroll the page to spin the robot a full 360° and inspect every detail.',
+      'robot.loading': 'Loading model…',
 
       'hero.eyebrow': '// Mechatronics engineering',
       'hero.title': 'Engineering <span class="accent">motion</span> into industry',
