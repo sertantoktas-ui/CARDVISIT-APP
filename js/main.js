@@ -1,5 +1,5 @@
 /* ============================================================
-   RMK Group — interactions & bilingual (TR/EN) content
+   RMK Mechatronics — interactions & bilingual (TR/EN) content
    ============================================================ */
 (function () {
   'use strict';
@@ -7,82 +7,84 @@
   /* ---------- Translations ---------- */
   const I18N = {
     tr: {
-      'meta.desc': 'RMK Group, enerji, gayrimenkul, teknoloji, sanayi ve finans alanlarında faaliyet gösteren çeşitlendirilmiş bir holding şirketidir.',
-      'brand.sub': 'GROUP',
+      'meta.desc': 'RMK Mechatronics; endüstriyel otomasyon, robotik sistemler ve özel makine çözümleri sunan bir mekatronik mühendislik firmasıdır.',
       'nav.about': 'Hakkımızda',
+      'nav.solutions': 'Çözümler',
+      'nav.process': 'Süreç',
       'nav.sectors': 'Sektörler',
-      'nav.portfolio': 'Portföy',
-      'nav.leadership': 'Yönetim',
-      'nav.sustainability': 'Sürdürülebilirlik',
+      'nav.team': 'Ekip',
       'nav.contact': 'İletişim',
 
-      'hero.eyebrow': '1992’den bu yana',
-      'hero.title': 'Büyümeye yön veriyoruz',
-      'hero.lead': 'Enerji, gayrimenkul, teknoloji, sanayi ve finans alanlarında faaliyet gösteren çeşitlendirilmiş bir holding grubu.',
-      'hero.cta1': 'Sektörlerimiz',
-      'hero.cta2': 'Bize ulaşın',
-      'hero.scroll': 'Keşfet',
+      'hero.eyebrow': '// Mekatronik mühendislik',
+      'hero.title': 'Mühendislikle <span class="accent">hareket</span> veriyoruz',
+      'hero.lead': 'Endüstriyel otomasyon, robotik sistemler ve özel makine çözümleriyle üretiminizi geleceğe taşıyoruz.',
+      'hero.cta1': 'Çözümlerimiz',
+      'hero.cta2': 'Teklif alın',
+      'hero.scroll': 'Aşağı kaydır',
 
       'stats.years': 'Yıllık tecrübe',
-      'stats.companies': 'Grup şirketi',
-      'stats.employees': 'Çalışan',
-      'stats.countries': 'Ülkede faaliyet',
+      'stats.projects': 'Tamamlanan proje',
+      'stats.engineers': 'Mühendis & teknisyen',
+      'stats.countries': 'Ülkeye ihracat',
 
-      'about.eyebrow': 'Hakkımızda',
-      'about.title': 'Nesiller boyu değer üreten bir grup',
-      'about.p1': 'RMK Group, 1992 yılında kurulduğu günden bu yana farklı sektörlerde faaliyet gösteren şirketleriyle Türkiye ve uluslararası pazarlarda sürdürülebilir büyümeye odaklanmaktadır.',
-      'about.p2': 'Disiplinli sermaye yönetimi, uzun vadeli ortaklık anlayışı ve operasyonel mükemmellik ilkeleriyle; portföyümüzdeki şirketlerin potansiyelini açığa çıkarıyor, istihdam ve katma değer yaratıyoruz.',
-      'about.link': 'Yönetim ekibimizle tanışın',
-      'about.v1t': 'Uzun vadeli bakış',
-      'about.v1p': 'Kısa vadeli kazançlar yerine kalıcı değer yaratmayı hedefliyoruz.',
-      'about.v2t': 'Operasyonel güç',
-      'about.v2p': 'Şirketlerimize sermayenin ötesinde stratejik ve operasyonel destek sağlıyoruz.',
-      'about.v3t': 'Sorumlu büyüme',
-      'about.v3p': 'Çevresel ve sosyal sorumluluğu iş modelimizin merkezine yerleştiriyoruz.',
+      'about.eyebrow': '// Hakkımızda',
+      'about.title': 'Mekanik, elektronik ve yazılımı tek çatı altında birleştiriyoruz',
+      'about.p1': 'RMK Mechatronics, endüstriyel otomasyon ve mekatronik alanında anahtar teslim çözümler geliştiren bir mühendislik firmasıdır. Mekanik tasarım, elektronik donanım ve kontrol yazılımını tek bir disiplinde buluşturuyoruz.',
+      'about.p2': 'Konsept aşamasından devreye almaya kadar tüm süreci kendi bünyemizde yürüterek; verimli, güvenilir ve ölçeklenebilir üretim hatları kuruyoruz.',
+      'about.link': 'Çözümlerimizi inceleyin',
+      'about.v1t': 'Anahtar teslim',
+      'about.v1p': 'Tasarımdan üretime ve devreye almaya kadar uçtan uca tek elden çözüm.',
+      'about.v2t': 'Ar-Ge odaklı',
+      'about.v2p': 'Kendi mühendislik ekibimizle özgün ve patentlenebilir çözümler üretiyoruz.',
+      'about.v3t': 'Endüstri 4.0',
+      'about.v3p': 'Veri, IoT ve akıllı kontrol sistemleriyle dijital fabrikalar kuruyoruz.',
 
-      'sectors.eyebrow': 'Faaliyet alanlarımız',
-      'sectors.title': 'Çeşitlendirilmiş bir portföy',
-      'sectors.intro': 'Birbirini tamamlayan altı temel sektörde faaliyet göstererek riski dengeliyor ve sürdürülebilir büyümeyi destekliyoruz.',
-      'sectors.s1t': 'Enerji',
-      'sectors.s1p': 'Yenilenebilir enerji üretimi, dağıtım ve enerji verimliliği çözümleri.',
-      'sectors.s2t': 'İnşaat & Gayrimenkul',
-      'sectors.s2p': 'Karma kullanımlı projeler, altyapı ve gayrimenkul geliştirme.',
-      'sectors.s3t': 'Teknoloji',
-      'sectors.s3p': 'Yazılım, dijital platformlar ve teknoloji girişimlerine yatırım.',
-      'sectors.s4t': 'Sanayi & Üretim',
-      'sectors.s4p': 'İleri üretim, otomotiv tedarik ve endüstriyel ürünler.',
-      'sectors.s5t': 'Finansal Hizmetler',
-      'sectors.s5p': 'Varlık yönetimi, sigorta ve finansal teknoloji yatırımları.',
-      'sectors.s6t': 'Turizm & Hizmet',
-      'sectors.s6p': 'Konaklama, perakende ve hizmet sektöründe öncü markalar.',
+      'solutions.eyebrow': '// Çözümler',
+      'solutions.title': 'Uçtan uca otomasyon yetkinlikleri',
+      'solutions.intro': 'İhtiyacınıza özel tasarlanan, ölçeklenebilir mekatronik sistemler.',
+      'solutions.s1t': 'Endüstriyel Otomasyon',
+      'solutions.s1p': 'Üretim hatları, montaj ve test sistemleri için komple otomasyon çözümleri.',
+      'solutions.s2t': 'Robotik Sistemler',
+      'solutions.s2p': 'Robot hücreleri, palletleme, kaynak ve malzeme taşıma uygulamaları.',
+      'solutions.s3t': 'Özel Makine Tasarımı',
+      'solutions.s3p': 'İhtiyaca özel makine ve aparatların mekanik tasarımı ve imalatı.',
+      'solutions.s4t': 'PLC & Kontrol Yazılımı',
+      'solutions.s4p': 'PLC, SCADA ve HMI programlama ile akıllı kontrol mimarileri.',
+      'solutions.s5t': 'Ar-Ge & Prototipleme',
+      'solutions.s5p': 'Konsept geliştirme, hızlı prototipleme ve doğrulama testleri.',
+      'solutions.s6t': 'Teknik Servis & Bakım',
+      'solutions.s6p': 'Devreye alma, periyodik bakım, yedek parça ve 7/24 teknik destek.',
 
-      'portfolio.eyebrow': 'Portföyümüz',
-      'portfolio.title': 'Birlikte büyüdüğümüz şirketler',
-      'portfolio.intro': 'Her biri kendi alanında lider olan grup şirketlerimizden bazıları.',
+      'process.eyebrow': '// Nasıl çalışıyoruz',
+      'process.title': 'Konsepten devreye alıma',
+      'process.intro': 'Her projeyi disiplinli ve şeffaf beş adımda hayata geçiriyoruz.',
+      'process.p1t': 'Analiz & Danışmanlık',
+      'process.p1p': 'İhtiyaçların belirlenmesi, fizibilite ve teknik danışmanlık.',
+      'process.p2t': 'Tasarım & Mühendislik',
+      'process.p2p': 'Mekanik, elektronik ve yazılım tasarımı; simülasyon.',
+      'process.p3t': 'Üretim & Montaj',
+      'process.p3p': 'İmalat, montaj ve fabrika içi test (FAT).',
+      'process.p4t': 'Devreye Alma',
+      'process.p4p': 'Sahada kurulum, devreye alma ve operatör eğitimi.',
+      'process.p5t': 'Destek & Bakım',
+      'process.p5p': 'Garanti, periyodik bakım ve sürekli teknik destek.',
 
-      'leadership.eyebrow': 'Yönetim',
-      'leadership.title': 'Deneyimli liderlik',
-      'leadership.intro': 'Grubumuzu yöneten, farklı disiplinlerden gelen güçlü bir ekip.',
-      'team.r1': 'Yönetim Kurulu Başkanı',
-      'team.r2': 'İcra Kurulu Başkanı (CEO)',
-      'team.r3': 'Mali İşler Direktörü (CFO)',
-      'team.r4': 'Strateji ve Yatırımlar Direktörü',
+      'sectors.eyebrow': '// Sektörler',
+      'sectors.title': 'Hizmet verdiğimiz endüstriler',
+      'sectors.intro': 'Farklı sektörlerin zorlu üretim ihtiyaçlarına çözüm üretiyoruz.',
 
-      'sustain.eyebrow': 'Sürdürülebilirlik',
-      'sustain.title': 'Geleceğe sorumlulukla yatırım',
-      'sustain.p1': 'İklim hedeflerimiz, sosyal etki programlarımız ve şeffaf yönetişim ilkelerimizle (ESG) sadece bugünü değil yarını da inşa ediyoruz.',
-      'sustain.l1': '2030’a kadar karbon nötr operasyonlar',
-      'sustain.l2': 'Yenilenebilir enerji kapasitesinde sürekli artış',
-      'sustain.l3': 'Toplumsal kalkınma ve eğitim programları',
-      'sustain.l4': 'Şeffaf ve hesap verebilir kurumsal yönetişim',
-      'sustain.m1': 'Yenilenebilir elektrik hedefi',
-      'sustain.m2': 'Yıllık fidan dikimi',
-      'sustain.m3': 'Kadın çalışan oranı',
+      'team.eyebrow': '// Ekip',
+      'team.title': 'Çözüm üreten mühendisler',
+      'team.intro': 'Mekatronik, yazılım ve üretim disiplinlerinden deneyimli bir ekip.',
+      'team.r1': 'Kurucu & Genel Müdür',
+      'team.r2': 'Ar-Ge Direktörü',
+      'team.r3': 'Otomasyon Müdürü',
+      'team.r4': 'Proje & Satış Direktörü',
 
-      'contact.eyebrow': 'İletişim',
-      'contact.title': 'Birlikte değer yaratalım',
-      'contact.intro': 'İş birliği, yatırım ve kariyer fırsatları için bizimle iletişime geçin.',
-      'contact.hq': 'Genel Merkez',
+      'contact.eyebrow': '// İletişim',
+      'contact.title': 'Projenizi konuşalım',
+      'contact.intro': 'Otomasyon ihtiyaçlarınız, teklif talepleri ve iş birlikleri için bize ulaşın.',
+      'contact.hq': 'Merkez',
       'contact.email': 'E-posta',
       'contact.phone': 'Telefon',
       'form.name': 'Ad Soyad',
@@ -92,87 +94,89 @@
       'form.submit': 'Gönder',
       'form.note': 'Teşekkürler! Mesajınız alındı, en kısa sürede dönüş yapacağız.',
 
-      'footer.tag': 'Büyümeye yön veriyoruz.',
+      'footer.tag': 'Mühendislikle hareket veriyoruz.',
       'footer.rights': 'Tüm hakları saklıdır.',
       'footer.privacy': 'Gizlilik Politikası',
       'footer.terms': 'Kullanım Koşulları'
     },
     en: {
-      'meta.desc': 'RMK Group is a diversified holding company operating across energy, real estate, technology, industry and finance.',
-      'brand.sub': 'GROUP',
+      'meta.desc': 'RMK Mechatronics is a mechatronics engineering company delivering industrial automation, robotic systems and custom machinery solutions.',
       'nav.about': 'About',
-      'nav.sectors': 'Sectors',
-      'nav.portfolio': 'Portfolio',
-      'nav.leadership': 'Leadership',
-      'nav.sustainability': 'Sustainability',
+      'nav.solutions': 'Solutions',
+      'nav.process': 'Process',
+      'nav.sectors': 'Industries',
+      'nav.team': 'Team',
       'nav.contact': 'Contact',
 
-      'hero.eyebrow': 'Since 1992',
-      'hero.title': 'Driving growth forward',
-      'hero.lead': 'A diversified holding group operating across energy, real estate, technology, industry and finance.',
-      'hero.cta1': 'Our sectors',
-      'hero.cta2': 'Get in touch',
-      'hero.scroll': 'Explore',
+      'hero.eyebrow': '// Mechatronics engineering',
+      'hero.title': 'Engineering <span class="accent">motion</span> into industry',
+      'hero.lead': 'We move your production into the future with industrial automation, robotic systems and custom machinery.',
+      'hero.cta1': 'Our solutions',
+      'hero.cta2': 'Request a quote',
+      'hero.scroll': 'Scroll down',
 
       'stats.years': 'Years of experience',
-      'stats.companies': 'Group companies',
-      'stats.employees': 'Employees',
-      'stats.countries': 'Countries of operation',
+      'stats.projects': 'Completed projects',
+      'stats.engineers': 'Engineers & technicians',
+      'stats.countries': 'Export countries',
 
-      'about.eyebrow': 'About us',
-      'about.title': 'A group creating value across generations',
-      'about.p1': 'Since its founding in 1992, RMK Group has focused on sustainable growth in Turkey and international markets through companies operating across diverse sectors.',
-      'about.p2': 'With disciplined capital management, a long-term partnership mindset and operational excellence, we unlock the potential of our portfolio companies while creating employment and lasting value.',
-      'about.link': 'Meet our leadership team',
-      'about.v1t': 'Long-term vision',
-      'about.v1p': 'We aim to build enduring value rather than chase short-term gains.',
-      'about.v2t': 'Operational strength',
-      'about.v2p': 'We support our companies with strategic and operational expertise beyond capital.',
-      'about.v3t': 'Responsible growth',
-      'about.v3p': 'We place environmental and social responsibility at the heart of our model.',
+      'about.eyebrow': '// About us',
+      'about.title': 'We unite mechanics, electronics and software under one roof',
+      'about.p1': 'RMK Mechatronics is an engineering firm developing turnkey solutions in industrial automation and mechatronics. We bring mechanical design, electronic hardware and control software together into a single discipline.',
+      'about.p2': 'By running the entire process in-house — from concept to commissioning — we build efficient, reliable and scalable production lines.',
+      'about.link': 'Explore our solutions',
+      'about.v1t': 'Turnkey delivery',
+      'about.v1p': 'End-to-end solutions from design to manufacturing and commissioning.',
+      'about.v2t': 'R&D driven',
+      'about.v2p': 'We create original, patentable solutions with our own engineering team.',
+      'about.v3t': 'Industry 4.0',
+      'about.v3p': 'We build digital factories with data, IoT and smart control systems.',
 
-      'sectors.eyebrow': 'What we do',
-      'sectors.title': 'A diversified portfolio',
-      'sectors.intro': 'Operating across six complementary core sectors, we balance risk and support sustainable growth.',
-      'sectors.s1t': 'Energy',
-      'sectors.s1p': 'Renewable power generation, distribution and energy-efficiency solutions.',
-      'sectors.s2t': 'Construction & Real Estate',
-      'sectors.s2p': 'Mixed-use developments, infrastructure and real estate development.',
-      'sectors.s3t': 'Technology',
-      'sectors.s3p': 'Investment in software, digital platforms and technology ventures.',
-      'sectors.s4t': 'Industry & Manufacturing',
-      'sectors.s4p': 'Advanced manufacturing, automotive supply and industrial products.',
-      'sectors.s5t': 'Financial Services',
-      'sectors.s5p': 'Asset management, insurance and fintech investments.',
-      'sectors.s6t': 'Tourism & Services',
-      'sectors.s6p': 'Leading brands in hospitality, retail and the service sector.',
+      'solutions.eyebrow': '// Solutions',
+      'solutions.title': 'End-to-end automation capabilities',
+      'solutions.intro': 'Scalable mechatronic systems designed specifically for your needs.',
+      'solutions.s1t': 'Industrial Automation',
+      'solutions.s1p': 'Complete automation solutions for production lines, assembly and testing.',
+      'solutions.s2t': 'Robotic Systems',
+      'solutions.s2p': 'Robot cells, palletizing, welding and material-handling applications.',
+      'solutions.s3t': 'Custom Machine Design',
+      'solutions.s3p': 'Mechanical design and manufacturing of bespoke machines and fixtures.',
+      'solutions.s4t': 'PLC & Control Software',
+      'solutions.s4p': 'Smart control architectures with PLC, SCADA and HMI programming.',
+      'solutions.s5t': 'R&D & Prototyping',
+      'solutions.s5p': 'Concept development, rapid prototyping and validation testing.',
+      'solutions.s6t': 'Service & Maintenance',
+      'solutions.s6p': 'Commissioning, preventive maintenance, spare parts and 24/7 support.',
 
-      'portfolio.eyebrow': 'Our portfolio',
-      'portfolio.title': 'Companies we grow together',
-      'portfolio.intro': 'A selection of our group companies, each a leader in its field.',
+      'process.eyebrow': '// How we work',
+      'process.title': 'From concept to commissioning',
+      'process.intro': 'We deliver every project in five disciplined, transparent steps.',
+      'process.p1t': 'Analysis & Consulting',
+      'process.p1p': 'Requirement definition, feasibility and technical consulting.',
+      'process.p2t': 'Design & Engineering',
+      'process.p2p': 'Mechanical, electronic and software design; simulation.',
+      'process.p3t': 'Manufacturing & Assembly',
+      'process.p3p': 'Production, assembly and factory acceptance testing (FAT).',
+      'process.p4t': 'Commissioning',
+      'process.p4p': 'On-site installation, commissioning and operator training.',
+      'process.p5t': 'Support & Maintenance',
+      'process.p5p': 'Warranty, preventive maintenance and continuous technical support.',
 
-      'leadership.eyebrow': 'Leadership',
-      'leadership.title': 'Experienced leadership',
-      'leadership.intro': 'A strong team from diverse disciplines leading our group.',
-      'team.r1': 'Chairman of the Board',
-      'team.r2': 'Chief Executive Officer (CEO)',
-      'team.r3': 'Chief Financial Officer (CFO)',
-      'team.r4': 'Director of Strategy & Investments',
+      'sectors.eyebrow': '// Industries',
+      'sectors.title': 'Industries we serve',
+      'sectors.intro': 'We solve the demanding production needs of diverse industries.',
 
-      'sustain.eyebrow': 'Sustainability',
-      'sustain.title': 'Investing responsibly in the future',
-      'sustain.p1': 'Through our climate goals, social impact programs and transparent governance principles (ESG), we build not only today but tomorrow.',
-      'sustain.l1': 'Carbon-neutral operations by 2030',
-      'sustain.l2': 'Continuous growth in renewable energy capacity',
-      'sustain.l3': 'Community development and education programs',
-      'sustain.l4': 'Transparent and accountable corporate governance',
-      'sustain.m1': 'Renewable electricity target',
-      'sustain.m2': 'Trees planted annually',
-      'sustain.m3': 'Female workforce ratio',
+      'team.eyebrow': '// Team',
+      'team.title': 'Engineers who deliver solutions',
+      'team.intro': 'An experienced team across mechatronics, software and manufacturing.',
+      'team.r1': 'Founder & General Manager',
+      'team.r2': 'R&D Director',
+      'team.r3': 'Automation Manager',
+      'team.r4': 'Project & Sales Director',
 
-      'contact.eyebrow': 'Contact',
-      'contact.title': 'Let’s create value together',
-      'contact.intro': 'Reach out to us for collaboration, investment and career opportunities.',
+      'contact.eyebrow': '// Contact',
+      'contact.title': 'Let’s talk about your project',
+      'contact.intro': 'Reach out for your automation needs, quote requests and partnerships.',
       'contact.hq': 'Headquarters',
       'contact.email': 'Email',
       'contact.phone': 'Phone',
@@ -183,23 +187,30 @@
       'form.submit': 'Send',
       'form.note': 'Thank you! Your message has been received and we will get back to you shortly.',
 
-      'footer.tag': 'Driving growth forward.',
+      'footer.tag': 'Engineering motion into industry.',
       'footer.rights': 'All rights reserved.',
       'footer.privacy': 'Privacy Policy',
       'footer.terms': 'Terms of Use'
     }
   };
 
-  /* Portfolio companies — name + sector tag key */
-  const COMPANIES = [
-    { name: 'RMK Enerji',    tagKey: 'sectors.s1t' },
-    { name: 'RMK İnşaat',    tagKey: 'sectors.s2t' },
-    { name: 'RMK Tech',      tagKey: 'sectors.s3t' },
-    { name: 'RMK Sanayi',    tagKey: 'sectors.s4t' },
-    { name: 'RMK Finans',    tagKey: 'sectors.s5t' },
-    { name: 'RMK Turizm',    tagKey: 'sectors.s6t' },
-    { name: 'RMK Lojistik',  tagKey: 'sectors.s4t' },
-    { name: 'RMK Gayrimenkul', tagKey: 'sectors.s2t' }
+  /* Allow limited inline markup (the <span class="accent">) for these keys */
+  const HTML_KEYS = new Set(['hero.title']);
+
+  /* Industries — bilingual name + short description */
+  const SECTORS = [
+    { tr: ['Otomotiv', 'Montaj hatları, kaynak ve test otomasyonu.'],
+      en: ['Automotive', 'Assembly lines, welding and test automation.'] },
+    { tr: ['Beyaz Eşya & Elektronik', 'Yüksek hacimli montaj ve son kontrol sistemleri.'],
+      en: ['Appliances & Electronics', 'High-volume assembly and end-of-line control.'] },
+    { tr: ['Gıda & İçecek', 'Hijyenik dolum, paketleme ve palletleme hatları.'],
+      en: ['Food & Beverage', 'Hygienic filling, packaging and palletizing lines.'] },
+    { tr: ['İlaç & Kimya', 'İzlenebilir, regülasyona uyumlu üretim hücreleri.'],
+      en: ['Pharma & Chemical', 'Traceable, compliant production cells.'] },
+    { tr: ['Savunma & Havacılık', 'Hassas üretim ve özel test düzenekleri.'],
+      en: ['Defense & Aerospace', 'Precision manufacturing and custom test rigs.'] },
+    { tr: ['Lojistik & Depo', 'Otomatik depolama, sıralama ve taşıma sistemleri.'],
+      en: ['Logistics & Warehouse', 'Automated storage, sorting and handling systems.'] }
   ];
 
   let currentLang = localStorage.getItem('rmk-lang') || 'tr';
@@ -215,29 +226,32 @@
       if (!(key in dict)) return;
       if (key === 'meta.desc') {
         el.setAttribute('content', dict[key]);
+      } else if (HTML_KEYS.has(key)) {
+        el.innerHTML = dict[key];
       } else {
         el.textContent = dict[key];
       }
     });
 
-    // language toggle active state
     document.querySelectorAll('.lang-opt').forEach(function (el) {
       el.classList.toggle('active', el.getAttribute('data-lang') === lang);
     });
 
-    renderPortfolio();
+    renderSectors();
     localStorage.setItem('rmk-lang', lang);
   }
 
-  /* ---------- Portfolio rendering ---------- */
-  function renderPortfolio() {
-    const grid = document.getElementById('portfolioGrid');
+  /* ---------- Sectors rendering ---------- */
+  function renderSectors() {
+    const grid = document.getElementById('sectorGrid');
     if (!grid) return;
-    const dict = I18N[currentLang] || I18N.tr;
-    grid.innerHTML = COMPANIES.map(function (c) {
-      return '<div class="logo-cell">' +
-             '<span class="logo-name">' + c.name + '</span>' +
-             '<span class="logo-tag">' + (dict[c.tagKey] || '') + '</span>' +
+    grid.innerHTML = SECTORS.map(function (s, i) {
+      const d = s[currentLang] || s.tr;
+      const idx = String(i + 1).padStart(2, '0');
+      return '<div class="sector-cell">' +
+             '<span class="sector-idx">' + idx + '</span>' +
+             '<h3>' + d[0] + '</h3>' +
+             '<p>' + d[1] + '</p>' +
              '</div>';
     }).join('');
   }
@@ -245,8 +259,7 @@
   /* ---------- Header scroll state ---------- */
   const header = document.getElementById('header');
   function onScroll() {
-    if (window.scrollY > 40) header.classList.add('scrolled');
-    else header.classList.remove('scrolled');
+    header.classList.toggle('scrolled', window.scrollY > 40);
   }
 
   /* ---------- Mobile menu ---------- */
@@ -276,7 +289,7 @@
 
   /* ---------- Reveal on scroll + counters ---------- */
   function setupObservers() {
-    const revealEls = document.querySelectorAll('.section, .stat, .sector-card, .team-card, .value-card');
+    const revealEls = document.querySelectorAll('.section, .stat, .sol-card, .team-card, .value-card, .proc-step');
     revealEls.forEach(function (el) { el.classList.add('reveal'); });
 
     const io = new IntersectionObserver(function (entries) {
