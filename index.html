@@ -10,6 +10,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
+  <script type="importmap">
+  { "imports": { "three": "./assets/vendor/three.module.js" } }
+  </script>
 </head>
 <body>
   <!-- ============ HEADER ============ -->
@@ -22,6 +25,7 @@
       <nav class="nav" id="nav" aria-label="Ana menü">
         <a href="#about" data-i18n="nav.about">Hakkımızda</a>
         <a href="#solutions" data-i18n="nav.solutions">Çözümler</a>
+        <a href="#model" data-i18n="nav.model">3B Model</a>
         <a href="#process" data-i18n="nav.process">Süreç</a>
         <a href="#sectors" data-i18n="nav.sectors">Sektörler</a>
         <a href="#team" data-i18n="nav.team">Ekip</a>
@@ -162,6 +166,39 @@
             <h3 data-i18n="solutions.s6t">Teknik Servis & Bakım</h3>
             <p data-i18n="solutions.s6p">Devreye alma, periyodik bakım, yedek parça ve 7/24 teknik destek.</p>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 3D REDUCER MODEL ============ -->
+    <section class="model" id="model" aria-label="3B redüktör modeli">
+      <div class="model-sticky">
+        <canvas id="reducerCanvas"></canvas>
+        <div class="model-fallback" id="modelFallback" aria-hidden="true"></div>
+        <div class="container model-inner">
+          <div class="model-head">
+            <p class="eyebrow" data-i18n="model.eyebrow">// 3B model</p>
+            <h2 class="section-title" data-i18n="model.title">Redüktörü her açıdan keşfedin</h2>
+            <p class="section-intro" data-i18n="model.intro">Sayfayı kaydırdıkça redüktör döner, dişliler hızlanır ve teknik veriler canlanır.</p>
+          </div>
+          <div class="spec-grid" aria-live="polite">
+            <div class="spec-card">
+              <span class="spec-k" data-i18n="model.s1k">Çevrim oranı</span>
+              <span class="spec-v">i = 3 : 1</span>
+            </div>
+            <div class="spec-card">
+              <span class="spec-k" data-i18n="model.s2k">Giriş devri</span>
+              <span class="spec-v"><span id="spInput">0</span> <i class="spec-u" data-i18n="model.rpm">dev/dk</i></span>
+            </div>
+            <div class="spec-card">
+              <span class="spec-k" data-i18n="model.s3k">Çıkış devri</span>
+              <span class="spec-v"><span id="spOutput">0</span> <i class="spec-u" data-i18n="model.rpm">dev/dk</i></span>
+            </div>
+            <div class="spec-card">
+              <span class="spec-k" data-i18n="model.s4k">Çıkış torku</span>
+              <span class="spec-v">250 <i class="spec-u">Nm</i></span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -322,5 +359,6 @@
   </footer>
 
   <script src="js/main.js"></script>
+  <script type="module" src="js/reducer3d.js"></script>
 </body>
 </html>

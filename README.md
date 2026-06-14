@@ -11,6 +11,7 @@ A **bilingual (TR/EN)**, dark-themed, infographic-oriented corporate website for
 - 🌐 **İki dilli** — TR/EN dil değiştirici (tercih `localStorage`'da saklanır)
 - 🎨 **Marka teması** — siyah arka plan, beyaz yazı, kırmızı vurgu (logo paletine uygun)
 - 📊 **İnfografik** — animasyonlu sayaçlar, 5 adımlı süreç zaman çizelgesi, ikonlu çözüm kartları
+- 🧩 **3B redüktör** — Three.js ile prosedürel dişli kutusu modeli; sayfa kaydırıldıkça döner, dişliler hızlanır ve giriş/çıkış devri verileri canlı güncellenir (Three.js `assets/vendor/` altında yereldir, CDN gerekmez)
 - 📱 **Tam duyarlı** — mobil, tablet ve masaüstü
 - ⚡ **Build gerektirmez** — saf HTML/CSS/JS, doğrudan tarayıcıda açılır
 
