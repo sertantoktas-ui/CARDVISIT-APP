@@ -1,10 +1,13 @@
-# RMK Mechatronics — Kurumsal Web Sitesi / Corporate Website
+# RMK Mekatronik — Kurumsal Web Sitesi / Corporate Website
 
-Endüstriyel otomasyon ve mekatronik çözümler sunan **RMK Mechatronics** için hazırlanmış,
-**iki dilli (TR/EN)**, koyu temalı ve infografik ağırlıklı kurumsal tanıtım sitesi.
+Endüstriyel otomasyon ve hareket kontrol ürünlerinde dünya markalarının çözüm ortağı
+**RMK Mekatronik A.Ş.** için hazırlanmış, **iki dilli (TR/EN)**, koyu temalı ve infografik
+ağırlıklı kurumsal tanıtım sitesi. İçerik [rmkmekatronik.com](https://www.rmkmekatronik.com)
+verileri esas alınarak hazırlanmıştır.
 
 A **bilingual (TR/EN)**, dark-themed, infographic-oriented corporate website for
-**RMK Mechatronics**, an industrial automation & mechatronics engineering company.
+**RMK Mekatronik A.Ş.**, a solution partner for world-leading industrial automation
+and motion-control brands.
 
 ## Özellikler / Features
 
@@ -43,8 +46,10 @@ assets/favicon.svg    # Favicon
 ## İçeriği Düzenleme / Editing Content
 
 - Metinler ve çeviriler: `js/main.js` içindeki `I18N` nesnesi.
-- Sektörler/endüstriler: `js/main.js` içindeki `SECTORS` dizisi.
+- Sektörler: `js/main.js` içindeki `SECTORS` dizisi · Markalar: `BRANDS` dizisi.
+- İletişim bilgileri: `index.html` içindeki iletişim bölümü.
 - Renkler: `css/styles.css` içindeki `:root` değişkenleri (`--red`, `--black` vb.).
 
-> Not: Rakamlar (15+ yıl, 500+ proje vb.), ekip isimleri ve iletişim bilgileri örnek/placeholder
-> niteliğindedir; gerçek RMK Mechatronics verileriyle güncellenmelidir.
+> Not: Şirket bilgileri (ürünler, markalar, ofisler, telefon, e-posta) rmkmekatronik.com
+> sitesinden alınmıştır. İstatistik rozetleri (13+ marka, 13 kategori vb.) sitedeki ürün
+> listelerinden türetilmiş yaklaşık değerlerdir.
