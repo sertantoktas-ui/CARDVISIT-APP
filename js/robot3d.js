@@ -28,12 +28,14 @@ import { RoomEnvironment } from '../assets/vendor/RoomEnvironment.js';
   /* ---------- Renderer ---------- */
   let renderer;
   try {
-    renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true, alpha: true });
+    renderer = new THREE.WebGLRenderer({
+      canvas: canvas, antialias: true, alpha: true, powerPreference: 'high-performance'
+    });
   } catch (e) {
     hideSection();
     return;
   }
-  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.5));
   renderer.toneMapping = THREE.ACESFilmicToneMapping;
   renderer.toneMappingExposure = 1.25;
 
