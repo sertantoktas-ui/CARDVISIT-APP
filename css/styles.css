@@ -393,32 +393,37 @@ a { color: inherit; text-decoration: none; }
 .sector-cell p { margin: 0; color: var(--muted); font-size: .94rem; }
 
 /* ============================================================
-   TEAM
+   BRANDS
    ============================================================ */
-.team-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
-.team-card { text-align: center; }
-.team-photo {
-  aspect-ratio: 1;
-  border-radius: var(--radius);
-  background: var(--panel);
+.brand-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: var(--line);
   border: 1px solid var(--line);
-  display: flex; align-items: center; justify-content: center;
-  margin-bottom: 18px;
-  position: relative; overflow: hidden;
+  border-radius: var(--radius);
+  overflow: hidden;
 }
-.team-photo::before {
-  content: attr(data-initials);
+.brand-cell {
+  background: var(--black);
+  min-height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  transition: background .25s var(--ease);
+}
+.brand-cell:hover { background: var(--panel-2); }
+.brand-cell span {
   font-family: var(--font-head);
-  font-size: 2.4rem; font-weight: 700;
-  color: var(--white);
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: .01em;
+  color: var(--muted);
+  transition: color .25s var(--ease);
+  text-align: center;
 }
-.team-photo::after {
-  content: "";
-  position: absolute; inset: 0;
-  background: radial-gradient(140px 140px at 72% 18%, rgba(217,38,46,.30), transparent 70%);
-}
-.team-card h3 { margin: 0 0 4px; font-family: var(--font-head); font-size: 1.08rem; color: var(--white); }
-.team-role { margin: 0; color: var(--muted); font-size: .9rem; }
+.brand-cell:hover span { color: var(--white); }
 
 /* ============================================================
    CONTACT
@@ -595,7 +600,7 @@ a { color: inherit; text-decoration: none; }
    ============================================================ */
 @media (max-width: 980px) {
   .about-grid, .contact-grid { grid-template-columns: 1fr; }
-  .sol-grid, .team-grid, .sector-grid { grid-template-columns: repeat(2, 1fr); }
+  .sol-grid, .brand-grid, .sector-grid { grid-template-columns: repeat(2, 1fr); }
   .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 40px 24px; }
   .stat:nth-child(2)::after { display: none; }
   .proc-track { grid-template-columns: 1fr; gap: 0; }
@@ -627,7 +632,7 @@ a { color: inherit; text-decoration: none; }
 }
 
 @media (max-width: 560px) {
-  .sol-grid, .team-grid, .sector-grid, .stats-grid { grid-template-columns: 1fr; }
+  .sol-grid, .brand-grid, .sector-grid, .stats-grid { grid-template-columns: 1fr; }
   .stat::after { display: none !important; }
   .footer-bottom { flex-direction: column; }
 }
